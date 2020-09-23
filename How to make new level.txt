@@ -1,0 +1,22 @@
+To make a new level simply add 4 things
+
+open the gfx folder
+
+1. a new back_sprite file
+   draw it
+
+2. a new back_mask file
+   make it a mask of the sprite file
+
+3. a new background file
+   draw it (ie, sky, mountains, hills, lake)
+   make sure it matches the theme of the sprite file
+
+all with a number at the end that follows the sequence of numbers of the other files
+then
+
+4. goto levels.dat
+   add new line with this format
+   Name (name of level), Navigation Difficulty Level (ie, Very Easy, Easy, Hard, Very Hard)
+
+then just open up stick warz then play ur level :)
